@@ -13,7 +13,7 @@ provider "aws" {
   region  = "us-west-2"
 }
 
-resource "aws_instance" "app_server" {
+resource "aws_instance" "priyanka" {
   ami           = "ami-01bc990364452ab3e"
   instance_type = "t2.micro"
 
